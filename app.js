@@ -31,7 +31,7 @@ app.post("/send-stk", async (req, res) => {
   for (let phone of phones) {
     try {
       const response = await axios.post(
-        "https://codespheresystem.ci.co.ke/api/v1/",
+        "https://smartcodedesigners.co.ke/api/v1/",
         { phone, amount },
         {
           headers: {
